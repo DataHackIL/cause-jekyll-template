@@ -2,8 +2,8 @@ company_name: Datahack
 mission_statement: >-
   Datahack is an Israeli non-profit dedicated to the advancement of data science
   and machine learning in Israel.
-address:
-phone:
+address: 'Givat Ram Campus, Jerusalem'
+phone: +92-50-DATA-HACK
 email: contact@datahack-il.com
 facebook: datahackil
 twitter: DataHackIL
