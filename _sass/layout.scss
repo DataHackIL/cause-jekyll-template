@@ -88,6 +88,16 @@ nav .button {
 			border-radius: 50px;
 		}
 
+		.noborderimage {
+			display: inline-block;
+			line-height: 0;
+			background: white;
+			margin-top: -60px;
+            margin-bottom: -60px;
+			padding: 9px;
+			box-shadow: 2px 7px 39px 9px #f7f7f7;
+		}
+
 		p {
 			font-size: 1.1rem;
 		}
@@ -346,7 +356,23 @@ footer {
 		align-items: center;
 		& > div {
 			flex: 1;
-			padding: 0 30px;
+			padding: 0 10px;
+		}
+	}
+
+	h2 {
+		text-align: left;
+	}
+}
+
+.ncolumns {
+	@media #{$desktop} {
+		display: flex;
+		margin: 0px -30px 0px;
+		align-items: center;
+		& > div {
+			flex: 1;
+			padding: 0px 10px 0px;
 		}
 	}
 
