@@ -92,9 +92,11 @@ nav .button {
 			display: inline-block;
 			line-height: 0;
 			background: white;
-			margin-top: -60px;
-            margin-bottom: -60px;
+            margin: 25px;
+			// margin-top: -60px;
+            // margin-bottom: -60px;
 			padding: 45px;
+
 		}
 
 		p {
@@ -392,6 +394,4 @@ footer {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 30px;
-    height: auto;
-    max-width: 50%;
 }
